@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script src="basic4.js"></script>
+    </head>
+
+    <script>
+        var a = prompt("Enter data a = ",0);
+        var b = prompt("Enter data b = ",0);
+        a=parseInt(a)
+        b=parseInt(b)
+        var sum = add(a,b);
+        var diff = sub(a,b);
+        var prod = mul(a,b);
+        var res = div(a,b);
+        document.write("<h2>Sum        = " + sum + "</h2>");
+        document.write("<h2>Difference = " + diff + "</h2>");
+        document.write("<h2>Product    = " + prod + "</h2>");
+        document.write("<h2>Quotient   = " + res[0] + "</h2>");        
+        document.write("<h2>Remainder   = " + res[1] + "</h2>");        
+    </script>
+
+</html>

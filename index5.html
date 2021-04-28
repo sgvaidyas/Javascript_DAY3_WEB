@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script src="basic5.js"></script>
+    </head>
+
+    <script>
+
+        document.write("<h1>-----MENU-----</h1>")    
+        document.write("<h2>1.IDLE  :30 </h2>")    
+        document.write("<h2>2.DOSA  :40</h2>")    
+        document.write("<h2>3.VADA  :20</h2>")    
+        document.write("<h2>4.TEA   :10 </h2>")
+        var choice= prompt( "<h2>Enter your choice:</h2>",0);
+        var quantity=0;
+        if(choice<=4 && choice>=1)
+            quantity=prompt( "<h2>Enter your quantity:</h2>",0);
+        
+        bill(choice,quantity);
+    
+    </script>
+    
+</html>
